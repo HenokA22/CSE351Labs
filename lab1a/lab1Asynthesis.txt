@@ -1,0 +1,38 @@
+******************************
+* Lab 1a Synthesis Questions *
+******************************
+Name(s):  Tong Lin, Henok Assalif
+NetID(s): tlin01, henok206
+
+-----------------------------------------------------------
+1) Steps:
+First we set the pointers to be seperated by one block of memory
+  - This was important b/c the pointers were off by the size of the data type (e.g int -> 4 bytes)
+
+Second the pointers data type are casted into char
+  -  Chars are one byte long therefore the pointer arithmetic is scaled by one. Letting us measure
+     bytes between addresses in units of one
+
+Lastly we returned the subtraction of the two pointers, giving us the size of the data type.
+  - Subtracting two pointers gives how many memory addresses are between them scaled by the size of the
+    data type of the pointer (pointer arithmetic). So by casting the pointers to be char pointers, this
+    subtraction will return the size of the data type.
+-----------------------------------------------------------
+2) Explain:
+The parameters (integers instead of pointers) would be passed as copies so swapping them doesn't 
+change the values at the original memory locations (like passing ints into a method in Java).
+
+
+-----------------------------------------------------------
+3) Positive and Drawback:
+
+Positive: A benefit of learning about refrecence in Java was it mimicted the "concept of a pointer".
+          Therefore learning fundementally how pointers work and their specifics wasn't too much of
+          a learning curve.
+
+Drawback: Coming out the intro series, we are not familiar with what pointers actually are , so 
+it was a little hard to wrap our heads around it when it was being introduced in this class. When you go 
+onto websites such as StackOverflow, seeing people talking about pointers is jarring and confusing.
+
+
+-----------------------------------------------------------
